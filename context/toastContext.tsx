@@ -1,6 +1,5 @@
 import { AnimatePresence, motion } from 'motion/react';
 import { createContext, useContext, useState } from 'react';
-import { MdClose } from 'react-icons/md';
 
 interface Toast {
     id: string;

@@ -72,8 +72,8 @@ export function SectionIntro() {
                         </h1>
                         <hr className='border border-neutral-300 h-px w-full' />
                         <p className='tracking-wide text-neutral-100 text-sm split'>
-                            "Dan segala sesuatu kami jadikan berpasang-pasangan, supaya
-                            kamu mengingat kebesaran Allah."
+                            &quot;Dan segala sesuatu kami jadikan berpasang-pasangan,
+                            supaya kamu mengingat kebesaran Allah.&quot;
                             <br />
                             <span className='font-medium'>QS. Adz-Dzariyaat (51):49</span>
                         </p>

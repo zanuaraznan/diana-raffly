@@ -18,7 +18,8 @@ function useSplitText({
     dependencies,
     conditionalFn,
 }: CustomConfig = {}) {
-    const containerRef = ref ?? useRef<HTMLDivElement>(null);
+    const innerRef = useRef<HTMLDivElement>(null);
+    const containerRef = ref || innerRef;
 
     useGSAP(
         () => {

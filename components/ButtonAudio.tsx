@@ -4,11 +4,11 @@ import { useSplashContext } from '@/context/splashContext';
 import { cn } from '@/utils';
 import Image from 'next/image';
 import { MdPause, MdPlayArrow } from 'react-icons/md';
-import audioLabel from './AudioLabel';
+import useAudioLabel from './useAudioLabel';
 
 export default function ButtonAudio() {
     const { audioRef, toggleAudioPlay, isAudioPlay } = useSplashContext();
-    const { AudioLabelComp, handlePressStart, handlePressEnd } = audioLabel();
+    const { AudioLabelComp, handlePressStart, handlePressEnd } = useAudioLabel();
 
     return (
         <>

@@ -2,7 +2,7 @@
 import { useRef, useState } from 'react';
 import { MdOutlineMusicNote } from 'react-icons/md';
 
-export default function audioLabel() {
+export default function useAudioLabel() {
     const [isPressing, setIsPressing] = useState(false);
     const holdTimeout = useRef<NodeJS.Timeout>(null);
 
