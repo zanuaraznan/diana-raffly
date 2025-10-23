@@ -39,6 +39,16 @@ export function SectionTimer() {
                 <h2 className='py-20 text-amber-800 text-center text-4xl font-semibold tracking-wider font-lamoric split'>
                     Terima Kasih ♡
                 </h2>
+                <p className='text-center text-sm p-4'>
+                    &copy; Made by{' '}
+                    <a
+                        href='https://github.com/zanuaraznan'
+                        rel='noopener noreferrer'
+                        referrerPolicy='no-referrer'
+                        className='underline font-medium'>
+                        Zanuarrasyidin
+                    </a>
+                </p>
             </section>
         )
     );

@@ -34,16 +34,6 @@ export default function RootLayout({
             <body
                 className={`${IBMPlex.className} ${Lamoric_Rowen.variable} ${LavishlyYours.variable} text-neutral-800 bg-amber-50 antialiased`}>
                 {children}
-                <p className='text-center text-sm p-4'>
-                    &copy; Made by{' '}
-                    <a
-                        href='https://github.com/zanuaraznan'
-                        rel='noopener noreferrer'
-                        referrerPolicy='no-referrer'
-                        className='underline font-medium'>
-                        Zanuarrasyidin
-                    </a>
-                </p>
             </body>
         </html>
     );
