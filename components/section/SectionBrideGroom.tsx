@@ -1,15 +1,16 @@
 'use client';
 import Image from 'next/image';
 import { useSplitTextSplashTrigger } from './SectionIntro';
+import { cn } from '@/utils';
 
 const BrideAndGroom = [
     {
-        name: 'Muhammad Raffly Yudhaditira',
-        detail: 'Putra dari Bapak Romlan & Ibu Elis Suswati',
+        name: 'Mochammad Zanuar Aznan Rasyidin',
+        detail: 'Putra dari Bapak & Ibu',
     },
     {
-        name: 'Diana Komala Sari',
-        detail: 'Putri dari Bapak Nadirsyah gelar (Kusuma Ratu) & Ibu Tijah gelar (Sri Ratu)',
+        name: 'Lalisa Manobal',
+        detail: 'Putri dari Bapak & Ibu',
     },
 ];
 
@@ -46,12 +47,15 @@ export function SectionBrideGroom() {
                         {BrideAndGroom.map(({ name, detail }, index) => (
                             <div key={name} className='flex-1'>
                                 <Image
-                                    src={`/images/image-${index + 2}.jpg`}
+                                    src={`/images/img_${index + 1}.jpeg`}
                                     alt='Image'
                                     width={1000}
                                     height={1000}
                                     priority
-                                    className='w-full aspect-4/3 object-top object-cover rounded-4xl'
+                                    className={cn(
+                                        'w-full aspect-4/3 object-top object-cover rounded-4xl',
+                                        index === 1 && 'object-center',
+                                    )}
                                 />
                                 <h4 className='font-semibold text-2xl font-lamoric mt-8 split'>
                                     {name}

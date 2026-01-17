@@ -8,12 +8,12 @@ const ScheduleList = [
     {
         title: 'Akad Nikah',
         hari: 'Rabu',
-        tanggal: '22',
+        tanggal: '30',
     },
     {
         title: 'Resepsi Pernikahan',
         hari: 'Kamis',
-        tanggal: '23',
+        tanggal: '31',
     },
 ];
 
@@ -52,30 +52,25 @@ export function SectionSchedule() {
                                     {hari}
                                 </p>
                                 <p className='*:block split'>
-                                    <span>OKTOBER</span>
+                                    <span>FEBRUARI</span>
                                     <span className='text-2xl font-bold'>{tanggal}</span>
-                                    <span className='text-lg font-medium'>2025</span>
+                                    <span className='text-lg font-medium'>2026</span>
                                 </p>
                                 <p className='flex items-center justify-center tracking-wider font-medium uppercase py-3 border-t border-b border-neutral-900 text-amber-800 text-sm split'>
                                     09.00 WIB - SELESAI
                                 </p>
                             </div>
                             <p className='text-sm'>
-                                RT 06/RW 01 (Tanjakan SDN 01), Negara Tulang Bawang, Kec.
-                                Bunga Mayang, Lampung Utara
+                                Gedung 2A, Kelurahan Dandangan, Kota Kediri, Jawa Timur,
+                                Indonesia
                             </p>
                         </div>
                     ))}
                 </div>
-                <a
-                    href='https://www.google.com/maps/search/?api=1&query=-4.593736659056701,104.86788153648376'
-                    rel='noopener noreferrer'
-                    referrerPolicy='no-referrer'
-                    target='_blank'
-                    className='mt-8 p-3 px-6 rounded-xl flex items-center gap-4 font-medium bg-neutral-900 text-white hover:bg-neutral-800 active:bg-neutral-700 transition-colors'>
+                <button className='mt-8 p-3 px-6 rounded-xl flex items-center gap-4 font-medium bg-neutral-900 text-white hover:bg-neutral-800 active:bg-neutral-700 transition-colors'>
                     <MdOutlinePinDrop size={18} className='shrink-0' />
                     Buka di Google Maps
-                </a>
+                </button>
             </section>
         )
     );

@@ -19,9 +19,9 @@ const Lamoric_Rowen = LocalFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Undangan Pernikahan Diana  & Raffly',
+    title: 'Undangan Pernikahan Zanuar  & Lisa',
     description:
-        'Spesial mengundang untuk menghadiri acara pernikahan kami. - Diana  & Raffly ',
+        'Spesial mengundang untuk menghadiri acara pernikahan kami. - Zanuar  & Lisa ',
 };
 
 export default function RootLayout({

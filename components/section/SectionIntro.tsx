@@ -33,12 +33,12 @@ export function SectionIntro() {
                 <div
                     className={cn(
                         'relative w-full max-h-[520px] transition-[max-height] duration-1500 ease-in-out overflow-hidden flex justify-center items-center',
-                        !isOpen && 'max-h-0'
+                        !isOpen && 'max-h-0',
                     )}>
                     <div className='absolute w-full -z-1'>
                         <Image
                             priority
-                            src='/images/image-4.jpg'
+                            src='/images/img_1.jpeg'
                             width={800}
                             height={1200}
                             alt='Welcome'
@@ -49,7 +49,7 @@ export function SectionIntro() {
                     <div className='bg-black'>
                         <Image
                             priority
-                            src='/images/image-4.jpg'
+                            src='/images/img_2.jpeg'
                             width={800}
                             height={1200}
                             alt='Welcome'
@@ -58,7 +58,7 @@ export function SectionIntro() {
                     </div>
                     <div className='absolute z-1 max-w-[800px] p-8 flex flex-col items-center justify-center gap-8 text-center'>
                         <Image
-                            src='/images/logo.svg'
+                            src='/images/logo.png'
                             alt='Logo'
                             width={48}
                             height={48}
@@ -68,7 +68,7 @@ export function SectionIntro() {
                             Welcome to our wedding
                         </p>
                         <h1 className='text-7xl font-lamoric text-amber-100 split'>
-                            Diana & Raffly
+                            Zanuar & Lisa
                         </h1>
                         <hr className='border border-neutral-300 h-px w-full' />
                         <p className='tracking-wide text-neutral-100 text-sm split'>

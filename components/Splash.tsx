@@ -21,11 +21,11 @@ export default function Splash({ to, detail }: GuestName) {
                 ref={splashRef}
                 className={cn(
                     'fixed inset-0 z-999 bg-neutral-900 text-white p-8 transition-transform duration-1000 ease-in-out',
-                    isAnimate && '-translate-y-full'
+                    isAnimate && '-translate-y-full',
                 )}>
                 <Image
-                    src='/images/image-1.jpg'
-                    alt='Wedding of Diana and Raffly'
+                    src='/images/img_1.jpeg'
+                    alt='Wedding of Zanuar and Lisa'
                     fill
                     priority
                     className='absolute inset-0 w-full h-full object-cover object-[center_35%] transition-opacity ease-in-out duration-1000 starting:opacity-0 opacity-25 z-0'
@@ -34,8 +34,8 @@ export default function Splash({ to, detail }: GuestName) {
                     <p className='font-lavishly font-medium text-4xl split leading-[150%]'>
                         The wedding of
                     </p>
-                    <h1 className='text-7xl font-lamoric split'>Diana & Raffly</h1>
-                    <p className='tracking-wider text-xl split'>23 - 10 - 2025</p>
+                    <h1 className='text-7xl font-lamoric split'>Zanuar & Lisa</h1>
+                    <p className='tracking-wider text-xl split'>31 - 02 - 2026</p>
                     <div className='mt-8 flex flex-col items-center gap-4'>
                         <p className='tracking-wide text-neutral-200 split'>
                             Yth. Bapak/Ibu/Saudara/i

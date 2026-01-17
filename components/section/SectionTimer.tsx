@@ -35,7 +35,7 @@ export function SectionTimer() {
                     height={250}
                     className='invert'
                 />
-                <CountdownTimer tanggal={23} bulan={10} tahun={2025} jam={9} />
+                <CountdownTimer tanggal={30} bulan={2} tahun={2026} jam={9} />
                 <h2 className='py-20 text-amber-800 text-center text-4xl font-semibold tracking-wider font-lamoric split'>
                     Terima Kasih ♡
                 </h2>

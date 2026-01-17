@@ -9,7 +9,7 @@ export default function Main() {
             <Section.SectionBrideGroom />
             <Section.SectionSchedule />
             <Section.SectionStory />
-            <Section.SectionGift />
+            {/* <Section.SectionGift /> */}
             <Section.SectionGallery />
             <Section.SectionTimer />
         </main>

@@ -10,10 +10,10 @@ export function SectionGallery() {
             <section ref={containerRef} className='section-classes py-12'>
                 <TitleSection title='Galeri' />
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
-                    {Array.from({ length: 7 }).map((_, index) => (
+                    {Array.from({ length: 2 }).map((_, index) => (
                         <Image
                             key={index}
-                            src={`/images/image-${index + 1}.jpg`}
+                            src={`/images/img_${index + 1}.jpeg`}
                             width={500}
                             height={500}
                             alt='image'
